@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>Jeu Ilyes</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>
+            Petit jeu sympa, Faites votre choix
+        </h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">joueur</div>
+        <div id="computer-label" class="badge">ordinateur</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+ 
+    <div class="resultat">
+        <p>Pierre -> Feuille -> Ciseaux</p>
+    </div>
+
+
+    <div class="jeu">
+        <div class="choix" id="p">
+            <img src="./img/pierre.png" alt="">
+        </div>
+        <div class="choix" id="f">
+            <img src="./img/feuille.png" alt="">
+        </div>
+        <div class="choix" id="c">
+            <img src="./img/ciseaux.png" alt="">
+        </div>
+    </div>
+
+ 
+    <p id="message">Le premier arrivé à 10 gagne, le perdant a un gage. Let's go !!! </p>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
